@@ -1,0 +1,3425 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "VoltFramework",
+    "printedName": "VoltFramework",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoltFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HttpMethod",
+        "printedName": "HttpMethod",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "get",
+            "printedName": "get",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VoltFramework.HttpMethod.Type) -> VoltFramework.HttpMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpMethod",
+                    "printedName": "VoltFramework.HttpMethod",
+                    "usr": "s:13VoltFramework10HttpMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VoltFramework.HttpMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpMethod",
+                        "printedName": "VoltFramework.HttpMethod",
+                        "usr": "s:13VoltFramework10HttpMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13VoltFramework10HttpMethodO3getyA2CmF",
+            "mangledName": "$s13VoltFramework10HttpMethodO3getyA2CmF",
+            "moduleName": "VoltFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "post",
+            "printedName": "post",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VoltFramework.HttpMethod.Type) -> VoltFramework.HttpMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpMethod",
+                    "printedName": "VoltFramework.HttpMethod",
+                    "usr": "s:13VoltFramework10HttpMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VoltFramework.HttpMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpMethod",
+                        "printedName": "VoltFramework.HttpMethod",
+                        "usr": "s:13VoltFramework10HttpMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13VoltFramework10HttpMethodO4postyA2CmF",
+            "mangledName": "$s13VoltFramework10HttpMethodO4postyA2CmF",
+            "moduleName": "VoltFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "put",
+            "printedName": "put",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VoltFramework.HttpMethod.Type) -> VoltFramework.HttpMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpMethod",
+                    "printedName": "VoltFramework.HttpMethod",
+                    "usr": "s:13VoltFramework10HttpMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VoltFramework.HttpMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpMethod",
+                        "printedName": "VoltFramework.HttpMethod",
+                        "usr": "s:13VoltFramework10HttpMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13VoltFramework10HttpMethodO3putyA2CmF",
+            "mangledName": "$s13VoltFramework10HttpMethodO3putyA2CmF",
+            "moduleName": "VoltFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "patch",
+            "printedName": "patch",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VoltFramework.HttpMethod.Type) -> VoltFramework.HttpMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpMethod",
+                    "printedName": "VoltFramework.HttpMethod",
+                    "usr": "s:13VoltFramework10HttpMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VoltFramework.HttpMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpMethod",
+                        "printedName": "VoltFramework.HttpMethod",
+                        "usr": "s:13VoltFramework10HttpMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13VoltFramework10HttpMethodO5patchyA2CmF",
+            "mangledName": "$s13VoltFramework10HttpMethodO5patchyA2CmF",
+            "moduleName": "VoltFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "delete",
+            "printedName": "delete",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VoltFramework.HttpMethod.Type) -> VoltFramework.HttpMethod",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpMethod",
+                    "printedName": "VoltFramework.HttpMethod",
+                    "usr": "s:13VoltFramework10HttpMethodO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VoltFramework.HttpMethod.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpMethod",
+                        "printedName": "VoltFramework.HttpMethod",
+                        "usr": "s:13VoltFramework10HttpMethodO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13VoltFramework10HttpMethodO6deleteyA2CmF",
+            "mangledName": "$s13VoltFramework10HttpMethodO6deleteyA2CmF",
+            "moduleName": "VoltFramework"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VoltFramework.HttpMethod?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpMethod",
+                    "printedName": "VoltFramework.HttpMethod",
+                    "usr": "s:13VoltFramework10HttpMethodO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13VoltFramework10HttpMethodO8rawValueACSgSS_tcfc",
+            "mangledName": "$s13VoltFramework10HttpMethodO8rawValueACSgSS_tcfc",
+            "moduleName": "VoltFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VoltFramework10HttpMethodO8rawValueSSvp",
+            "mangledName": "$s13VoltFramework10HttpMethodO8rawValueSSvp",
+            "moduleName": "VoltFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VoltFramework10HttpMethodO8rawValueSSvg",
+                "mangledName": "$s13VoltFramework10HttpMethodO8rawValueSSvg",
+                "moduleName": "VoltFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13VoltFramework10HttpMethodO",
+        "mangledName": "$s13VoltFramework10HttpMethodO",
+        "moduleName": "VoltFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "HttpHeader",
+        "printedName": "HttpHeader",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "contentType",
+            "printedName": "contentType",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VoltFramework.HttpHeader.Type) -> VoltFramework.HttpHeader",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpHeader",
+                    "printedName": "VoltFramework.HttpHeader",
+                    "usr": "s:13VoltFramework10HttpHeaderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VoltFramework.HttpHeader.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpHeader",
+                        "printedName": "VoltFramework.HttpHeader",
+                        "usr": "s:13VoltFramework10HttpHeaderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13VoltFramework10HttpHeaderO11contentTypeyA2CmF",
+            "mangledName": "$s13VoltFramework10HttpHeaderO11contentTypeyA2CmF",
+            "moduleName": "VoltFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "authorization",
+            "printedName": "authorization",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VoltFramework.HttpHeader.Type) -> VoltFramework.HttpHeader",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpHeader",
+                    "printedName": "VoltFramework.HttpHeader",
+                    "usr": "s:13VoltFramework10HttpHeaderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VoltFramework.HttpHeader.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpHeader",
+                        "printedName": "VoltFramework.HttpHeader",
+                        "usr": "s:13VoltFramework10HttpHeaderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13VoltFramework10HttpHeaderO13authorizationyA2CmF",
+            "mangledName": "$s13VoltFramework10HttpHeaderO13authorizationyA2CmF",
+            "moduleName": "VoltFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "userAgent",
+            "printedName": "userAgent",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VoltFramework.HttpHeader.Type) -> VoltFramework.HttpHeader",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpHeader",
+                    "printedName": "VoltFramework.HttpHeader",
+                    "usr": "s:13VoltFramework10HttpHeaderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VoltFramework.HttpHeader.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpHeader",
+                        "printedName": "VoltFramework.HttpHeader",
+                        "usr": "s:13VoltFramework10HttpHeaderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13VoltFramework10HttpHeaderO9userAgentyA2CmF",
+            "mangledName": "$s13VoltFramework10HttpHeaderO9userAgentyA2CmF",
+            "moduleName": "VoltFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "SAAsessionID",
+            "printedName": "SAAsessionID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VoltFramework.HttpHeader.Type) -> VoltFramework.HttpHeader",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpHeader",
+                    "printedName": "VoltFramework.HttpHeader",
+                    "usr": "s:13VoltFramework10HttpHeaderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VoltFramework.HttpHeader.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpHeader",
+                        "printedName": "VoltFramework.HttpHeader",
+                        "usr": "s:13VoltFramework10HttpHeaderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13VoltFramework10HttpHeaderO12SAAsessionIDyA2CmF",
+            "mangledName": "$s13VoltFramework10HttpHeaderO12SAAsessionIDyA2CmF",
+            "moduleName": "VoltFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "urlencoded",
+            "printedName": "urlencoded",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VoltFramework.HttpHeader.Type) -> VoltFramework.HttpHeader",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpHeader",
+                    "printedName": "VoltFramework.HttpHeader",
+                    "usr": "s:13VoltFramework10HttpHeaderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VoltFramework.HttpHeader.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpHeader",
+                        "printedName": "VoltFramework.HttpHeader",
+                        "usr": "s:13VoltFramework10HttpHeaderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13VoltFramework10HttpHeaderO10urlencodedyA2CmF",
+            "mangledName": "$s13VoltFramework10HttpHeaderO10urlencodedyA2CmF",
+            "moduleName": "VoltFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "jsonHeader",
+            "printedName": "jsonHeader",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VoltFramework.HttpHeader.Type) -> VoltFramework.HttpHeader",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpHeader",
+                    "printedName": "VoltFramework.HttpHeader",
+                    "usr": "s:13VoltFramework10HttpHeaderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VoltFramework.HttpHeader.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpHeader",
+                        "printedName": "VoltFramework.HttpHeader",
+                        "usr": "s:13VoltFramework10HttpHeaderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13VoltFramework10HttpHeaderO04jsonD0yA2CmF",
+            "mangledName": "$s13VoltFramework10HttpHeaderO04jsonD0yA2CmF",
+            "moduleName": "VoltFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "bearerKey",
+            "printedName": "bearerKey",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VoltFramework.HttpHeader.Type) -> VoltFramework.HttpHeader",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpHeader",
+                    "printedName": "VoltFramework.HttpHeader",
+                    "usr": "s:13VoltFramework10HttpHeaderO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VoltFramework.HttpHeader.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "HttpHeader",
+                        "printedName": "VoltFramework.HttpHeader",
+                        "usr": "s:13VoltFramework10HttpHeaderO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13VoltFramework10HttpHeaderO9bearerKeyyA2CmF",
+            "mangledName": "$s13VoltFramework10HttpHeaderO9bearerKeyyA2CmF",
+            "moduleName": "VoltFramework"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VoltFramework.HttpHeader?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "HttpHeader",
+                    "printedName": "VoltFramework.HttpHeader",
+                    "usr": "s:13VoltFramework10HttpHeaderO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13VoltFramework10HttpHeaderO8rawValueACSgSS_tcfc",
+            "mangledName": "$s13VoltFramework10HttpHeaderO8rawValueACSgSS_tcfc",
+            "moduleName": "VoltFramework",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VoltFramework10HttpHeaderO8rawValueSSvp",
+            "mangledName": "$s13VoltFramework10HttpHeaderO8rawValueSSvp",
+            "moduleName": "VoltFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VoltFramework10HttpHeaderO8rawValueSSvg",
+                "mangledName": "$s13VoltFramework10HttpHeaderO8rawValueSSvg",
+                "moduleName": "VoltFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13VoltFramework10HttpHeaderO",
+        "mangledName": "$s13VoltFramework10HttpHeaderO",
+        "moduleName": "VoltFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VoltFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "VoltFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoltFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "VoltFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VoltHomeViewController",
+        "printedName": "VoltHomeViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "userContentController",
+            "printedName": "userContentController(_:didReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKUserContentController",
+                "printedName": "WebKit.WKUserContentController",
+                "usr": "c:objc(cs)WKUserContentController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKScriptMessage",
+                "printedName": "WebKit.WKScriptMessage",
+                "usr": "c:objc(cs)WKScriptMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VoltFramework@objc(cs)VoltHomeViewController(im)userContentController:didReceiveScriptMessage:",
+            "mangledName": "$s13VoltFramework0A18HomeViewControllerC011userContentE0_10didReceiveySo06WKUsergE0C_So15WKScriptMessageCtF",
+            "moduleName": "VoltFramework",
+            "objc_name": "userContentController:didReceiveScriptMessage:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "voltWebView",
+            "printedName": "voltWebView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@VoltFramework@objc(cs)VoltHomeViewController(py)voltWebView",
+            "mangledName": "$s13VoltFramework0A18HomeViewControllerC07voltWebD0So05WKWebD0CSgvp",
+            "moduleName": "VoltFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl",
+              "IBOutlet",
+              "RawDocComment",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "WebKit.WKWebView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKWebView",
+                        "printedName": "WebKit.WKWebView",
+                        "usr": "c:objc(cs)WKWebView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VoltFramework@objc(cs)VoltHomeViewController(im)voltWebView",
+                "mangledName": "$s13VoltFramework0A18HomeViewControllerC07voltWebD0So05WKWebD0CSgvg",
+                "moduleName": "VoltFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ImplicitlyUnwrappedOptional",
+                    "printedName": "WebKit.WKWebView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "WKWebView",
+                        "printedName": "WebKit.WKWebView",
+                        "usr": "c:objc(cs)WKWebView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@VoltFramework@objc(cs)VoltHomeViewController(im)setVoltWebView:",
+                "mangledName": "$s13VoltFramework0A18HomeViewControllerC07voltWebD0So05WKWebD0CSgvs",
+                "moduleName": "VoltFramework",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VoltFramework0A18HomeViewControllerC07voltWebD0So05WKWebD0CSgvM",
+                "mangledName": "$s13VoltFramework0A18HomeViewControllerC07voltWebD0So05WKWebD0CSgvM",
+                "moduleName": "VoltFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "authToken",
+            "printedName": "authToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VoltFramework0A18HomeViewControllerC9authTokenSSSgvpZ",
+            "mangledName": "$s13VoltFramework0A18HomeViewControllerC9authTokenSSSgvpZ",
+            "moduleName": "VoltFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VoltFramework0A18HomeViewControllerC9authTokenSSSgvgZ",
+                "mangledName": "$s13VoltFramework0A18HomeViewControllerC9authTokenSSSgvgZ",
+                "moduleName": "VoltFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VoltFramework0A18HomeViewControllerC9authTokenSSSgvsZ",
+                "mangledName": "$s13VoltFramework0A18HomeViewControllerC9authTokenSSSgvsZ",
+                "moduleName": "VoltFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VoltFramework0A18HomeViewControllerC9authTokenSSSgvMZ",
+                "mangledName": "$s13VoltFramework0A18HomeViewControllerC9authTokenSSSgvMZ",
+                "moduleName": "VoltFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "platformCode",
+            "printedName": "platformCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VoltFramework0A18HomeViewControllerC12platformCodeSSSgvpZ",
+            "mangledName": "$s13VoltFramework0A18HomeViewControllerC12platformCodeSSSgvpZ",
+            "moduleName": "VoltFramework",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VoltFramework0A18HomeViewControllerC12platformCodeSSSgvgZ",
+                "mangledName": "$s13VoltFramework0A18HomeViewControllerC12platformCodeSSSgvgZ",
+                "moduleName": "VoltFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VoltFramework0A18HomeViewControllerC12platformCodeSSSgvsZ",
+                "mangledName": "$s13VoltFramework0A18HomeViewControllerC12platformCodeSSSgvsZ",
+                "moduleName": "VoltFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VoltFramework0A18HomeViewControllerC12platformCodeSSSgvMZ",
+                "mangledName": "$s13VoltFramework0A18HomeViewControllerC12platformCodeSSSgvMZ",
+                "moduleName": "VoltFramework",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isLenderDsp",
+            "printedName": "isLenderDsp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VoltFramework0A18HomeViewControllerC11isLenderDspSbSgvp",
+            "mangledName": "$s13VoltFramework0A18HomeViewControllerC11isLenderDspSbSgvp",
+            "moduleName": "VoltFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "Preconcurrency",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VoltFramework0A18HomeViewControllerC11isLenderDspSbSgvg",
+                "mangledName": "$s13VoltFramework0A18HomeViewControllerC11isLenderDspSbSgvg",
+                "moduleName": "VoltFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Bool?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VoltFramework0A18HomeViewControllerC11isLenderDspSbSgvs",
+                "mangledName": "$s13VoltFramework0A18HomeViewControllerC11isLenderDspSbSgvs",
+                "moduleName": "VoltFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VoltFramework0A18HomeViewControllerC11isLenderDspSbSgvM",
+                "mangledName": "$s13VoltFramework0A18HomeViewControllerC11isLenderDspSbSgvM",
+                "moduleName": "VoltFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(authToken:platformCode:hideNavigationBar:exitCallback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VoltHomeViewController",
+                "printedName": "VoltFramework.VoltHomeViewController",
+                "usr": "c:@M@VoltFramework@objc(cs)VoltHomeViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((Swift.String) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13VoltFramework0A18HomeViewControllerC9authToken12platformCode17hideNavigationBar12exitCallbackACSS_SSSbySScSgtcfc",
+            "mangledName": "$s13VoltFramework0A18HomeViewControllerC9authToken12platformCode17hideNavigationBar12exitCallbackACSS_SSSbySScSgtcfc",
+            "moduleName": "VoltFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VoltFramework@objc(cs)VoltHomeViewController(im)viewDidLoad",
+            "mangledName": "$s13VoltFramework0A18HomeViewControllerC11viewDidLoadyyF",
+            "moduleName": "VoltFramework",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "safariViewControllerDidFinish",
+            "printedName": "safariViewControllerDidFinish(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SFSafariViewController",
+                "printedName": "SafariServices.SFSafariViewController",
+                "usr": "c:objc(cs)SFSafariViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VoltFramework@objc(cs)VoltHomeViewController(im)safariViewControllerDidFinish:",
+            "mangledName": "$s13VoltFramework0A18HomeViewControllerC06safaridE9DidFinishyySo08SFSafaridE0CF",
+            "moduleName": "VoltFramework",
+            "objc_name": "safariViewControllerDidFinish:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "safariViewController",
+            "printedName": "safariViewController(_:didCompleteInitialLoad:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SFSafariViewController",
+                "printedName": "SafariServices.SFSafariViewController",
+                "usr": "c:objc(cs)SFSafariViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VoltFramework@objc(cs)VoltHomeViewController(im)safariViewController:didCompleteInitialLoad:",
+            "mangledName": "$s13VoltFramework0A18HomeViewControllerC06safaridE0_22didCompleteInitialLoadySo08SFSafaridE0C_SbtF",
+            "moduleName": "VoltFramework",
+            "objc_name": "safariViewController:didCompleteInitialLoad:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "safariViewController",
+            "printedName": "safariViewController(_:initialLoadDidRedirectTo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SFSafariViewController",
+                "printedName": "SafariServices.SFSafariViewController",
+                "usr": "c:objc(cs)SFSafariViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VoltFramework@objc(cs)VoltHomeViewController(im)safariViewController:initialLoadDidRedirectToURL:",
+            "mangledName": "$s13VoltFramework0A18HomeViewControllerC06safaridE0_24initialLoadDidRedirectToySo08SFSafaridE0C_10Foundation3URLVtF",
+            "moduleName": "VoltFramework",
+            "objc_name": "safariViewController:initialLoadDidRedirectToURL:",
+            "declAttributes": [
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VoltHomeViewController",
+                "printedName": "VoltFramework.VoltHomeViewController",
+                "usr": "c:@M@VoltFramework@objc(cs)VoltHomeViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VoltFramework@objc(cs)VoltHomeViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s13VoltFramework0A18HomeViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "VoltFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:createWebViewWith:for:windowFeatures:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "WebKit.WKWebView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKWebView",
+                    "printedName": "WebKit.WKWebView",
+                    "usr": "c:objc(cs)WKWebView"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebViewConfiguration",
+                "printedName": "WebKit.WKWebViewConfiguration",
+                "usr": "c:objc(cs)WKWebViewConfiguration"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWindowFeatures",
+                "printedName": "WebKit.WKWindowFeatures",
+                "usr": "c:objc(cs)WKWindowFeatures"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VoltFramework@objc(cs)VoltHomeViewController(im)webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "mangledName": "$s13VoltFramework0A18HomeViewControllerC03webD0_09createWebD4With3for14windowFeaturesSo05WKWebD0CSgAI_So0mD13ConfigurationCSo18WKNavigationActionCSo08WKWindowL0CtF",
+            "moduleName": "VoltFramework",
+            "objc_name": "webView:createWebViewWithConfiguration:forNavigationAction:windowFeatures:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFinish:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VoltFramework@objc(cs)VoltHomeViewController(im)webView:didFinishNavigation:",
+            "mangledName": "$s13VoltFramework0A18HomeViewControllerC03webD0_9didFinishySo05WKWebD0C_So12WKNavigationCSgtF",
+            "moduleName": "VoltFramework",
+            "objc_name": "webView:didFinishNavigation:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:didFail:withError:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ImplicitlyUnwrappedOptional",
+                "printedName": "WebKit.WKNavigation?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigation",
+                    "printedName": "WebKit.WKNavigation",
+                    "usr": "c:objc(cs)WKNavigation"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "any Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VoltFramework@objc(cs)VoltHomeViewController(im)webView:didFailNavigation:withError:",
+            "mangledName": "$s13VoltFramework0A18HomeViewControllerC03webD0_7didFail9withErrorySo05WKWebD0C_So12WKNavigationCSgs0J0_ptF",
+            "moduleName": "VoltFramework",
+            "objc_name": "webView:didFailNavigation:withError:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:decidePolicyFor:decisionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKNavigationAction",
+                "printedName": "WebKit.WKNavigationAction",
+                "usr": "c:objc(cs)WKNavigationAction"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(WebKit.WKNavigationActionPolicy) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "WKNavigationActionPolicy",
+                    "printedName": "WebKit.WKNavigationActionPolicy",
+                    "usr": "c:@E@WKNavigationActionPolicy"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@VoltFramework@objc(cs)VoltHomeViewController(im)webView:decidePolicyForNavigationAction:decisionHandler:",
+            "mangledName": "$s13VoltFramework0A18HomeViewControllerC03webD0_15decidePolicyFor15decisionHandlerySo05WKWebD0C_So18WKNavigationActionCySo0mnH0VctF",
+            "moduleName": "VoltFramework",
+            "objc_name": "webView:decidePolicyForNavigationAction:decisionHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "webView",
+            "printedName": "webView(_:shouldPreviewElement:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKWebView",
+                "printedName": "WebKit.WKWebView",
+                "usr": "c:objc(cs)WKWebView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "WKContextMenuElementInfo",
+                "printedName": "WebKit.WKContextMenuElementInfo",
+                "usr": "c:objc(cs)WKContextMenuElementInfo"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VoltFramework0A18HomeViewControllerC03webD0_20shouldPreviewElementSbSo05WKWebD0C_So013WKContextMenuI4InfoCtF",
+            "mangledName": "$s13VoltFramework0A18HomeViewControllerC03webD0_20shouldPreviewElementSbSo05WKWebD0C_So013WKContextMenuI4InfoCtF",
+            "moduleName": "VoltFramework",
+            "declAttributes": [
+              "Preconcurrency",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VoltFramework@objc(cs)VoltHomeViewController",
+        "mangledName": "$s13VoltFramework0A18HomeViewControllerC",
+        "moduleName": "VoltFramework",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@VoltFramework@objc(cs)BaseViewController",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "VoltFramework.BaseViewController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoltFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoltFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VoltSDKContainer",
+        "printedName": "VoltSDKContainer",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(voltInstance:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VoltSDKContainer",
+                "printedName": "VoltFramework.VoltSDKContainer",
+                "usr": "s:13VoltFramework0A12SDKContainerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VoltFramework.VoltInstance?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VoltInstance",
+                    "printedName": "VoltFramework.VoltInstance",
+                    "usr": "s:13VoltFramework0A8InstanceC"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13VoltFramework0A12SDKContainerC12voltInstanceAcA0aE0CSg_tcfc",
+            "mangledName": "$s13VoltFramework0A12SDKContainerC12voltInstanceAcA0aE0CSg_tcfc",
+            "moduleName": "VoltFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "FaqClicked",
+            "printedName": "FaqClicked()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VoltFramework0A12SDKContainerC10FaqClickedyyFZ",
+            "mangledName": "$s13VoltFramework0A12SDKContainerC10FaqClickedyyFZ",
+            "moduleName": "VoltFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logout",
+            "printedName": "logout()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VoltFramework0A12SDKContainerC6logoutyyFZ",
+            "mangledName": "$s13VoltFramework0A12SDKContainerC6logoutyyFZ",
+            "moduleName": "VoltFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "preCreateApplication",
+            "printedName": "preCreateApplication(dob:email:panNumber:mobileNumber:callback:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((VoltFramework.APIResponse?) -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(VoltFramework.APIResponse?) -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "VoltFramework.APIResponse?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "APIResponse",
+                            "printedName": "VoltFramework.APIResponse",
+                            "usr": "s:13VoltFramework11APIResponseV"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VoltFramework0A12SDKContainerC20preCreateApplication3dob5email9panNumber06mobileJ08callbackySS_S2SSiyAA11APIResponseVSgcSgtFZ",
+            "mangledName": "$s13VoltFramework0A12SDKContainerC20preCreateApplication3dob5email9panNumber06mobileJ08callbackySS_S2SSiyAA11APIResponseVSgcSgtFZ",
+            "moduleName": "VoltFramework",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13VoltFramework0A12SDKContainerC",
+        "mangledName": "$s13VoltFramework0A12SDKContainerC",
+        "moduleName": "VoltFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoltFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "APIResponse",
+        "printedName": "APIResponse",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "customerAccountId",
+            "printedName": "customerAccountId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VoltFramework11APIResponseV17customerAccountIdSSSgvp",
+            "mangledName": "$s13VoltFramework11APIResponseV17customerAccountIdSSSgvp",
+            "moduleName": "VoltFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VoltFramework11APIResponseV17customerAccountIdSSSgvg",
+                "mangledName": "$s13VoltFramework11APIResponseV17customerAccountIdSSSgvg",
+                "moduleName": "VoltFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VoltFramework11APIResponseV17customerAccountIdSSSgvs",
+                "mangledName": "$s13VoltFramework11APIResponseV17customerAccountIdSSSgvs",
+                "moduleName": "VoltFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VoltFramework11APIResponseV17customerAccountIdSSSgvM",
+                "mangledName": "$s13VoltFramework11APIResponseV17customerAccountIdSSSgvM",
+                "moduleName": "VoltFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "message",
+            "printedName": "message",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VoltFramework11APIResponseV7messageSSSgvp",
+            "mangledName": "$s13VoltFramework11APIResponseV7messageSSSgvp",
+            "moduleName": "VoltFramework",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VoltFramework11APIResponseV7messageSSSgvg",
+                "mangledName": "$s13VoltFramework11APIResponseV7messageSSSgvg",
+                "moduleName": "VoltFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VoltFramework11APIResponseV7messageSSSgvs",
+                "mangledName": "$s13VoltFramework11APIResponseV7messageSSSgvs",
+                "moduleName": "VoltFramework",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VoltFramework11APIResponseV7messageSSSgvM",
+                "mangledName": "$s13VoltFramework11APIResponseV7messageSSSgvM",
+                "moduleName": "VoltFramework",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "APIResponse",
+                "printedName": "VoltFramework.APIResponse",
+                "usr": "s:13VoltFramework11APIResponseV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13VoltFramework11APIResponseV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s13VoltFramework11APIResponseV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "VoltFramework",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VoltFramework11APIResponseV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s13VoltFramework11APIResponseV6encode2toys7Encoder_p_tKF",
+            "moduleName": "VoltFramework",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:13VoltFramework11APIResponseV",
+        "mangledName": "$s13VoltFramework11APIResponseV",
+        "moduleName": "VoltFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoltFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VOLTENV",
+        "printedName": "VOLTENV",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "STAGING",
+            "printedName": "STAGING",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VoltFramework.VOLTENV.Type) -> VoltFramework.VOLTENV",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VOLTENV",
+                    "printedName": "VoltFramework.VOLTENV",
+                    "usr": "s:13VoltFramework7VOLTENVO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VoltFramework.VOLTENV.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VOLTENV",
+                        "printedName": "VoltFramework.VOLTENV",
+                        "usr": "s:13VoltFramework7VOLTENVO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13VoltFramework7VOLTENVO7STAGINGyA2CmF",
+            "mangledName": "$s13VoltFramework7VOLTENVO7STAGINGyA2CmF",
+            "moduleName": "VoltFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "PRODUCTION",
+            "printedName": "PRODUCTION",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(VoltFramework.VOLTENV.Type) -> VoltFramework.VOLTENV",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VOLTENV",
+                    "printedName": "VoltFramework.VOLTENV",
+                    "usr": "s:13VoltFramework7VOLTENVO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "VoltFramework.VOLTENV.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "VOLTENV",
+                        "printedName": "VoltFramework.VOLTENV",
+                        "usr": "s:13VoltFramework7VOLTENVO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:13VoltFramework7VOLTENVO10PRODUCTIONyA2CmF",
+            "mangledName": "$s13VoltFramework7VOLTENVO10PRODUCTIONyA2CmF",
+            "moduleName": "VoltFramework"
+          },
+          {
+            "kind": "Var",
+            "name": "description",
+            "printedName": "description",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VoltFramework7VOLTENVO11descriptionSSvp",
+            "mangledName": "$s13VoltFramework7VOLTENVO11descriptionSSvp",
+            "moduleName": "VoltFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VoltFramework7VOLTENVO11descriptionSSvg",
+                "mangledName": "$s13VoltFramework7VOLTENVO11descriptionSSvg",
+                "moduleName": "VoltFramework",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VOLTENV",
+                "printedName": "VoltFramework.VOLTENV",
+                "usr": "s:13VoltFramework7VOLTENVO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "VOLTENV",
+                "printedName": "VoltFramework.VOLTENV",
+                "usr": "s:13VoltFramework7VOLTENVO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VoltFramework7VOLTENVO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s13VoltFramework7VOLTENVO2eeoiySbAC_ACtFZ",
+            "moduleName": "VoltFramework",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:13VoltFramework7VOLTENVO9hashValueSivp",
+            "mangledName": "$s13VoltFramework7VOLTENVO9hashValueSivp",
+            "moduleName": "VoltFramework",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:13VoltFramework7VOLTENVO9hashValueSivg",
+                "mangledName": "$s13VoltFramework7VOLTENVO9hashValueSivg",
+                "moduleName": "VoltFramework",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:13VoltFramework7VOLTENVO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s13VoltFramework7VOLTENVO4hash4intoys6HasherVz_tF",
+            "moduleName": "VoltFramework",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:13VoltFramework7VOLTENVO",
+        "mangledName": "$s13VoltFramework7VOLTENVO",
+        "moduleName": "VoltFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoltFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "VoltInstance",
+        "printedName": "VoltInstance",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(voltEnv:partner_platform:primary_color:secondary_color:ref:ssoToken:customerCode:target:showSDKHeader:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "VoltInstance",
+                "printedName": "VoltFramework.VoltInstance",
+                "usr": "s:13VoltFramework0A8InstanceC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VoltFramework.VOLTENV?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "VOLTENV",
+                    "printedName": "VoltFramework.VOLTENV",
+                    "usr": "s:13VoltFramework7VOLTENVO"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:13VoltFramework0A8InstanceC7voltEnv16partner_platform13primary_color010secondary_I03ref8ssoToken12customerCode6target13showSDKHeaderAcA7VOLTENVOSg_SSSgA6PSbSgtcfc",
+            "mangledName": "$s13VoltFramework0A8InstanceC7voltEnv16partner_platform13primary_color010secondary_I03ref8ssoToken12customerCode6target13showSDKHeaderAcA7VOLTENVOSg_SSSgA6PSbSgtcfc",
+            "moduleName": "VoltFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:13VoltFramework0A8InstanceC",
+        "mangledName": "$s13VoltFramework0A8InstanceC",
+        "moduleName": "VoltFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VoltFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BaseViewController",
+        "printedName": "BaseViewController",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@VoltFramework@objc(cs)BaseViewController(im)viewDidLoad",
+            "mangledName": "$s13VoltFramework18BaseViewControllerC11viewDidLoadyyF",
+            "moduleName": "VoltFramework",
+            "overriding": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(nibName:bundle:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseViewController",
+                "printedName": "VoltFramework.BaseViewController",
+                "usr": "c:@M@VoltFramework@objc(cs)BaseViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Bundle?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bundle",
+                    "printedName": "Foundation.Bundle",
+                    "usr": "c:objc(cs)NSBundle"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VoltFramework@objc(cs)BaseViewController(im)initWithNibName:bundle:",
+            "mangledName": "$s13VoltFramework18BaseViewControllerC7nibName6bundleACSSSg_So8NSBundleCSgtcfc",
+            "moduleName": "VoltFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithNibName:bundle:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "VoltFramework.BaseViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "BaseViewController",
+                    "printedName": "VoltFramework.BaseViewController",
+                    "usr": "c:@M@VoltFramework@objc(cs)BaseViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@VoltFramework@objc(cs)BaseViewController(im)initWithCoder:",
+            "mangledName": "$s13VoltFramework18BaseViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "VoltFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Preconcurrency",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@VoltFramework@objc(cs)BaseViewController",
+        "mangledName": "$s13VoltFramework18BaseViewControllerC",
+        "moduleName": "VoltFramework",
+        "declAttributes": [
+          "Preconcurrency",
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoltFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Network",
+        "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "VoltFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "VoltFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "VoltFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "VoltFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "DeveloperToolsSupport",
+        "printedName": "DeveloperToolsSupport",
+        "declKind": "Import",
+        "moduleName": "VoltFramework"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 456,
+      "length": 5,
+      "value": "\"GET\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 478,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 500,
+      "length": 5,
+      "value": "\"PUT\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 523,
+      "length": 7,
+      "value": "\"PATCH\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 549,
+      "length": 8,
+      "value": "\"DELETE\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 617,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 657,
+      "length": 15,
+      "value": "\"Authorization\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 694,
+      "length": 12,
+      "value": "\"User-Agent\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 731,
+      "length": 16,
+      "value": "\"SAA-session-id\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 770,
+      "length": 35,
+      "value": "\"application\/x-www-form-urlencoded\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 828,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 868,
+      "length": 8,
+      "value": "\"Bearer\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1030,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/VoltHomeViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3621,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Model\/APIResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 393,
+      "length": 12,
+      "value": "\"auth_token\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Model\/APIResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1054,
+      "length": 7,
+      "value": "\"@type\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Model\/APIResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1087,
+      "length": 11,
+      "value": "\"accountId\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Model\/APIResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1289,
+      "length": 24,
+      "value": "\"platformAgreementIdUri\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Model\/APIResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1603,
+      "length": 9,
+      "value": "\"app_key\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Model\/APIResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1638,
+      "length": 12,
+      "value": "\"app_secret\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Model\/APIResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 2197,
+      "length": 15,
+      "value": "\"customLogoUrl\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 494,
+      "length": 16,
+      "value": "\"SDK_INVESTWELL\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 544,
+      "length": 34,
+      "value": "\"https:\/\/api.staging.voltmoney.in\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 615,
+      "length": 51,
+      "value": "\"https:\/\/app.staging.voltmoney.in\/partnerplatform?\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 717,
+      "length": 33,
+      "value": "\"\/v1\/partner\/platform\/auth\/login\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 805,
+      "length": 50,
+      "value": "\"\/v1\/partner\/platform\/las\/createCreditApplication\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 903,
+      "length": 50,
+      "value": "\"\/v1\/partner\/platform\/las\/createCreditApplication\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1021,
+      "length": 31,
+      "value": "\"volt-sdk-staging@voltmoney.in\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/NetworkConstant.swift",
+      "kind": "StringLiteral",
+      "offset": 1080,
+      "length": 34,
+      "value": "\"e10b6eaf2e334d1b955434e25fcfe2d8\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/VoltInstance.swift",
+      "kind": "StringLiteral",
+      "offset": 566,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/VoltInstance.swift",
+      "kind": "StringLiteral",
+      "offset": 595,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/VoltInstance.swift",
+      "kind": "StringLiteral",
+      "offset": 618,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/VoltInstance.swift",
+      "kind": "BooleanLiteral",
+      "offset": 647,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Desktop\/sdks\/volt-ios-sdk\/VoltFramework\/Managers\/ReachabilityManager\/ReachabilityMonitor.swift",
+      "kind": "StringLiteral",
+      "offset": 309,
+      "length": 9,
+      "value": "\"Monitor\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Library\/Developer\/Xcode\/DerivedData\/VoltFramework-fdrffzyykckhbsfnawxrwmouuewk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VoltFramework\/IntermediateBuildFilesPath\/VoltFramework.build\/Release-iphoneos\/VoltFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 627,
+      "length": 14,
+      "value": "\"primaryColor\""
+    },
+    {
+      "filePath": "\/Users\/ankurp\/Library\/Developer\/Xcode\/DerivedData\/VoltFramework-fdrffzyykckhbsfnawxrwmouuewk\/Build\/Intermediates.noindex\/ArchiveIntermediates\/VoltFramework\/IntermediateBuildFilesPath\/VoltFramework.build\/Release-iphoneos\/VoltFramework.build\/DerivedSources\/GeneratedAssetSymbols.swift",
+      "kind": "StringLiteral",
+      "offset": 864,
+      "length": 6,
+      "value": "\"back\""
+    }
+  ]
+}
