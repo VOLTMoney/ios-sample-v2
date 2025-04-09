@@ -40,10 +40,10 @@ struct ContentView: View {
                         TextField("Enter Partner Platform", text: $partnerPlatform)
                         
                         Text("SSO Token")
-                        TextField("Enter Partner Platform", text: $ssoToken)
+                        TextField("Enter SSO Code", text: $ssoToken)
                         
                         Text("Customer Code")
-                        TextField("Enter Partner Platform", text: $customerCode)
+                        TextField("Enter Customer Code", text: $customerCode)
                         Toggle(isOn: $isChecked) {
                                         Text("Show Header")  // Label text
                                             .font(.headline)
@@ -108,7 +108,7 @@ struct ContentView: View {
     
     func createVoltInstance() {
 
-        let voltInstance = VoltInstance(voltEnv : VOLTENV.STAGING,partner_platform: partnerPlatform, primary_color: primaryColor, secondary_color: secondaryColor, ssoToken: ssoToken , target: "" ,showSDKHeader: isChecked)
+        let voltInstance = VoltInstance(voltEnv : VOLTENV.STAGING,partner_platform: partnerPlatform, primary_color: primaryColor, secondary_color: secondaryColor, ssoToken: ssoToken, customerCode: customerCode , target: "" ,showSDKHeader: isChecked)
 
         let voltSDKInstance = VoltSDKContainer(voltInstance: voltInstance)
 
